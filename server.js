@@ -8,5 +8,5 @@ app.use(express.json());
 app.use('/tarefas', tarefaRoutes);
 
 app.listen(port, () => {
-  console.log(`Server is running on http://localhost:${port}`);
+  console.log(`Servidor funcionando no http://localhost:${port}`);
 });
